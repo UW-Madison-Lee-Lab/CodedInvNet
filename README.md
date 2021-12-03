@@ -20,3 +20,4 @@ python ./main.py --config_file configs/mnist.json -fusion --nactors 2
 
 python ./main.py --config_file configs/mnist.json -fusion --nactors 2 -test_fusion
 
+**Credit**: we make use of the code from [i-ResNet](https://github.com/jhjacobsen/invertible-resnet), [i-RevNet](https://github.com/jhjacobsen/pytorch-i-revnet) and [Pix2Pix](https://github.com/phillipi/pix2pix) for our models.
